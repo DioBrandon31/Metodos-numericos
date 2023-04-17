@@ -1,0 +1,35 @@
+#questão 2
+x = 10  # Valor inicial de x
+precision = 1e-06  # Precisão desejada
+delta = x  # Inicializando o delta com um valor arbitrário
+
+while delta >= precision:
+    x = x / 2  # Divisão por 2
+    delta = abs(x - (x/2))  # Cálculo do delta
+    print(f"x = {x:.10f}")  # Exibição do valor de x com 10 casas decimais
+    
+    
+# interaçoes 
+x = 5.0000000000
+x = 2.5000000000
+x = 1.2500000000
+x = 0.6250000000
+x = 0.3125000000
+x = 0.1562500000
+x = 0.0781250000
+x = 0.0390625000
+x = 0.0195312500
+x = 0.0097656250
+x = 0.0048828125
+x = 0.0024414062
+x = 0.0012207031
+x = 0.0006103516
+x = 0.0003051758
+x = 0.0001525879
+x = 0.0000762939
+x = 0.0000381470
+x = 0.0000190735
+x = 0.0000095367
+x = 0.0000047684
+x = 0.0000023842
+x = 0.0000011921
