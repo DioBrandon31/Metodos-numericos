@@ -1,0 +1,19 @@
+import numpy as np
+
+# Definindo a matriz A
+A = np.array([[3, 2, 7], [2, 5, 7], [7, 1, 8]])
+
+# Obtendo os autovalores e autovetores de A
+autovalores, autovetores = np.linalg.eig(A)
+
+# Exibindo os resultados
+print("Autovalores de A: ", autovalores)
+print("Autovetores de A: \n", autovetores)
+
+# Obtendo a decomposição SVD de A
+U, S, Vt = np.linalg.svd(A)
+
+# Exibindo os resultados
+print("Matriz U da decomposição SVD: \n", U)
+print("Matriz S da decomposição SVD: ", S)
+print("Matriz Vt da decomposição SVD: \n", Vt)
